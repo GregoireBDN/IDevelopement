@@ -372,9 +372,10 @@ div.display-mobile{
     }
 
     div.section-grise1 p{
-        font-size: 16px;
+        font-size: 14px;
+        max-height: ;
     }
-    
+    s
     div.section-grise2{
         background: url(triangle1white.svg) no-repeat center top/100% ;
         background-color: var(--color3);
@@ -387,12 +388,12 @@ div.display-mobile{
     }
 
     img.col-contenue{
-        width: 40%;
+        width:100%;
     }
     
     div.col-contenue{
         width: 100%;
-        padding-left: 16px;
+        padding-left: 0px;
     }
 
     div.col60{
@@ -482,6 +483,8 @@ div.display-mobile{
     div.display-mobile{
         display: block;
     }
+    div.text-ligne2{
+        font-size: 13px;
 }
 @media only screen and (min-width: 1350px){
     h2{
