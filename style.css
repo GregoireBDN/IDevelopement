@@ -1,0 +1,542 @@
+*{
+    box-sizing: border-box;
+}
+
+:root{
+    --color1 : #d89584;
+    --color2 : white;
+    --color3 : #f4f4f4;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+    line-height: 1.5;
+}
+
+iframe{
+    width: 100%;
+    border: none;
+    height: 350px;
+}
+
+/* TETE DE LA PAGE D'ACCEUILLE*/
+
+div.cover{
+    background: url(cover_overlay.png) no-repeat center/100% 100% ,url(cover.jpg) no-repeat center/cover;
+    height: 360px;
+    position: relative;
+}
+
+/*PHOTO DE PROFIL*/
+
+img.cover-profile {
+    height: 126px;
+    position: relative;
+    left: 50%;
+    margin-left: -63px;
+    margin-top: 30px;
+}
+h1{
+    color: var(--color2);
+    text-align: center;
+    font-size: 42px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+div.cover p{
+    color: var(--color2);
+    text-align: center;
+    margin-top: 4px;
+    margin-bottom: 0px;
+}
+
+div.cover-contacte{
+    position:absolute;
+    top: 10px;
+    left: 15px;
+    border-left: 4px solid var(--color1);
+    padding-left: 8px;
+    margin-top: 5px;
+}
+div.cover-contacte p{
+    text-align: left;
+    margin-top: 0;
+}
+
+div.cover-contacte p:hover{
+    font-weight: bold;
+}
+
+div.cover-contacte p:first-child{
+    margin-bottom: 14px;
+}
+
+
+div.cover-contacte a{
+    color: var(--color2);
+    font-size: 14px;
+}
+
+div.bouton-contacte{
+    text-align: center;
+}
+
+div.bouton-contacte a{
+    color: var(--color1);
+    text-decoration: none;
+    border: 2px solid var(--color1); 
+    padding: 10px 20px 10px 20px;
+    background-color: #0000008d;
+    display: inline-block;
+    margin-top: 25px;
+    font-size: 14px;
+}
+
+div.bouton-contacte a:hover{
+    color: var(--color2);
+    border: 2px solid var(--color2); 
+    font-size: 15px;
+}
+
+.section{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    overflow: auto;
+}
+
+div.section-grise1{
+    background: url(triangle2white.svg) no-repeat center bottom -1px/100% ;
+    background-color: var(--color3);
+    padding-bottom: 80px;
+}
+
+div.section-grise2{
+    background: url(triangle1white.svg) no-repeat center top/100% ;
+    background-color: var(--color3);
+    padding-top: 100px;}
+
+h2{
+    text-align: center;
+    font-size: 34px;
+    margin-top: 0;
+}
+
+div.separateur{
+    display: block;
+    width: 150px;
+    height: 1px;
+    background-color: #979797;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.section-grise1 p{
+    color: #979797;
+    text-align: center;
+    font-size: 24px;
+    margin-top: 20px;
+    max-width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+div.section-grise1 b{
+    font-weight: bold;
+}
+
+
+img.col-contenue{
+    width: 40%;
+    max-width: 400px;
+}
+
+div.col-contenue{
+    width: 60%;
+    padding-left: 16px;
+}
+
+.float-right{
+    float: right;
+}
+
+div.text-ligne{
+    margin-top: 0;
+}
+
+p.text-ligne{
+    border-left: solid 3px var(--color1);
+    padding-left: 10px;
+    height: 50px;
+    display: inline-block;
+}
+
+div.text-ligne a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+div.text-ligne a:hover{
+    color: var(--color1);}
+
+div.barre-verticale{
+    height: 50px;
+    width: 4px;
+    background-color: #d89584;
+    margin-right: 10px;
+}
+
+.col-portefolio{
+    width: 47%;
+    display: inline-block;
+    margin-top: 0px;
+}
+
+div.section-grise2 h2{
+    margin-top: 15px;
+}
+
+.col-portefolio a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.col-portefolio a:hover{
+    color: var(--color1);
+}
+
+div.frame{
+    margin: 30px 50px;
+    padding: 20px 30px;
+    background-color: white;
+    box-shadow: 0px 0px 8px 8px rgb(0, 0, 0, 0.1);
+}
+
+img.frame-profile{
+    width: 125px;
+}
+
+div.text-ligne2{
+    margin-top: 0;
+    margin-left: 20px;
+}
+div.text-ligne2 p{
+    border-left: solid 3px var(--color1);
+    padding-left: 10px;
+    height: 40px;
+    display: inline-block;
+}
+/* PORTFOLIO*/
+
+.portfolio-header{
+    height:90px;
+    background:url(cover.jpg) no-repeat center/cover;
+}
+
+div.portfolio-header-name{
+    margin-top: 0;
+    margin-left: 20px;
+}
+
+div.portfolio-header p{
+    border-left: solid 3px var(--color1);
+    padding-left: 10px;
+    height: 50px;
+    display: inline-block;
+    color: white;
+    font-size: 26px;
+    font-weight: bold;
+    display: inline-block;
+    padding-top: 5px;
+}
+
+img.image-centre{
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    max-width: 475px;
+}
+
+div.bouton-contacte-portfolio{
+    float: right;
+    
+}
+
+div.bouton-contacte-portfolio a{
+    color: var(--color1);
+    text-decoration: none;
+    border: 2px solid var(--color1); 
+    padding: 10px 20px 10px 20px;
+    background-color: #0000008d;
+    display: inline-block;
+    margin-top: 28px;
+    margin-right: 20px;
+    font-size: 12px;
+}
+
+div.bouton-contacte-portfolio a:hover{
+    color: var(--color2);
+    border: 2px solid var(--color2); 
+    font-size: 11px;
+}
+
+h1.portfolio{
+    font-size: 46px;
+    color: black;
+    margin-bottom: 0px;
+}
+
+h2.portfolio{
+    font-size: 26px;
+    color: black;
+    font-weight: normal;
+    margin-bottom: 0;
+    margin-top: 0px;
+}
+
+a.portfolio{
+    color: var(--color1);
+    margin-left: -10px;
+}
+
+.consultation{
+    text-align: center;
+    margin-top: 20px;
+    display: block;
+}
+div.display-mobile{
+    display: none;
+}
+
+@media only screen and (max-width: 767px) {
+    img.cover-profile {
+        height: 100px;
+        position: relative;
+        left: 50%;
+        margin-left: -63px;
+        margin-top: 75px;
+    }
+    h1{
+        color: var(--color2);
+        text-align: center;
+        font-size: 38px;
+        margin-top: 6px;
+        margin-bottom: 0px;
+    }
+        
+    div.cover p{
+        color: var(--color2);
+        text-align: center;
+        margin-top: 2px;
+        margin-bottom: 0px;
+        font-size: 13px;
+    } 
+    div.cover-contacte p{
+        text-align: left;
+        margin-top: 0;
+    }
+    
+    div.cover-contacte p:hover{
+        font-weight: bold;
+    }
+    
+    div.cover-contacte p:first-child{
+        margin-bottom: 2px;
+    }
+    
+
+    div.cover-contacte a{
+        color: var(--color2);
+        font-size: 12px;
+        
+    }
+    .section{
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+    
+    div.section-grise1{
+        padding-bottom: 40px;
+    }
+
+    div.section-grise1 p{
+        font-size: 16px;
+    }
+    
+    div.section-grise2{
+        background: url(triangle1white.svg) no-repeat center top/100% ;
+        background-color: var(--color3);
+        padding-top: 50px;}
+    
+    h2{
+        text-align: center;
+        font-size: 25px;
+        margin-top: 0;
+    }
+
+    img.col-contenue{
+        width: 40%;
+    }
+    
+    div.col-contenue{
+        width: 100%;
+        padding-left: 16px;
+    }
+
+    div.col60{
+        width: 100%;
+        float: left;
+        padding: 0 0 0 -30;
+    }
+    .col-portefolio{
+        width: 100%;
+        display: inline-block;
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+    div.text-ligne2{
+        margin-top: 0;
+        margin-left: 20px;
+    }
+    div.text-ligne2 p{
+        border-left: solid 3px var(--color1);
+        padding-left: 10px;
+        height: 50px;
+        display: inline-block;
+    }
+    div.frame{
+        margin: 0px 0px;
+        padding: 0px 0px;
+        box-shadow: none
+    }
+    
+    img.frame-profile{
+        width: 70px;
+    }
+    
+    iframe{
+        width: 100%;
+        border: none;
+        height: 250px;
+    }
+    img.image-centre{
+        width: 100%;
+    }
+    div.portfolio-header p{
+        border-left: solid 3px var(--color1);
+        padding-left: 10px;
+        height: 40px;
+        display: inline-block;
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        display: inline-block;
+        padding-top: 8px;
+    }
+    
+    
+    div.bouton-contacte-portfolio{
+        float: right;
+        
+    }
+    
+    div.bouton-contacte-portfolio a{
+        padding: 5px 10px 5px 10px;
+        font-size: 10px;
+    }
+    
+    div.bouton-contacte-portfolio a:hover{
+        color: var(--color2);
+        border: 2px solid var(--color2); 
+        font-size: 12px;
+    }
+    h1.portfolio{
+        font-size: 36px;
+    
+    }
+    
+    h2.portfolio{
+        font-size: 20px;
+ 
+    }
+    
+    a.portfolio{
+        color: var(--color1);
+        margin-left: -10px;
+    }
+    img.image-centre{
+        width: 100
+    }
+    div.display-mobile{
+        display: block;
+    }
+}
+@media only screen and (min-width: 1350px){
+    h2{
+    font-size: 50px;
+    }
+    div.section-grise1 p{
+        font-size: 35px;
+        max-width: 900px; 
+        margin-bottom: 80px;
+    }
+    div.cover-contacte a{
+        color: var(--color2);
+        font-size: 18px;
+    }
+    .cover p{
+        font-size: 18px;
+    }
+    p.text-ligne{
+        font-size: 22px;
+    }
+    iframe{
+        width: 100%;
+        border: none;
+        height: 400px;
+    }
+    img.image-centre{
+        width: 100%;
+        max-width: 750px;
+    }
+    div.section-grise1{ 
+        padding-bottom: 120px;
+    }
+    div.text-ligne2{
+        font-size: 22px;
+    }
+    .portfolio-header{
+        height:120px;
+        background:url(cover.jpg) no-repeat center/cover;
+    }
+    div.bouton-contacte-portfolio a{
+        color: var(--color1);
+        text-decoration: none;
+        border: 2px solid var(--color1); 
+        padding: 10px 20px 10px 20px;
+        background-color: #0000008d;
+        display: inline-block;
+        margin-top: 28px;
+        margin-right: 20px;
+        font-size: 15px;
+    }
+    
+    div.bouton-contacte-portfolio a:hover{
+        color: var(--color2);
+        border: 2px solid var(--color2); 
+        font-size: 18px;
+    }
+    
+}
